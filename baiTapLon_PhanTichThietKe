@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T14:20:04.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.19 Safari/537.36" etag="mQ0che3don-ES6TU3XGb" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T14:21:00.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.19 Safari/537.36" etag="usy8Ss960fhSB5l8y3Rf" version="14.4.7" type="github">
   <diagram id="29eJ0uYPQ6lBAIFsueLX" name="Page-1">
     <mxGraphModel dx="1954" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="PmqXMVuTDzVfWJlBWVuT-66" value="Quản lý xe máy" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#FFFF99;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="730" y="-320" width="153" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PmqXMVuTDzVfWJlBWVuT-73" value="Viết báo cáo, nhận xét" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fillColor=#FFFF99;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="PmqXMVuTDzVfWJlBWVuT-73" value="Viết báo cáo" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fillColor=#FFFF99;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="800" y="390" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
