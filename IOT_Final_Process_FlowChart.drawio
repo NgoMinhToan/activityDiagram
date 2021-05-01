@@ -1,1 +1,425 @@
-<mxfile host="app.diagrams.net" modified="2021-05-01T11:38:18.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4491.6 Safari/537.36" version="14.4.8" etag="kbaBZpnKqpCkuNQBNGar" type="github"><diagram id="anuXyuavmqjR2wPOfA69">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-01T15:58:05.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4491.6 Safari/537.36" etag="k4WGmgzvdGAEqHZkQ0nK" version="14.4.8" type="github">
+  <diagram id="anuXyuavmqjR2wPOfA69" name="Page-1">
+    <mxGraphModel dx="1021" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B6U_4YluaV11gysAg7g0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-2" target="B6U_4YluaV11gysAg7g0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-2" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-3" target="B6U_4YluaV11gysAg7g0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-3" value="Cảm biến ánh sáng, độ ẩm, nhiệt độ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-14" value="Tốt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-11" target="B6U_4YluaV11gysAg7g0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-16" value="Cao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-11" target="B6U_4YluaV11gysAg7g0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-11" value="Kiểm tra độ ẩm, &lt;br&gt;nhiệt độ không khí" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-13" target="B6U_4YluaV11gysAg7g0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-13" value="Đóng màn che" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-15" target="B6U_4YluaV11gysAg7g0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-15" value="Gửi tín hiệu mở màn che" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-25" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-22" target="B6U_4YluaV11gysAg7g0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-22" target="B6U_4YluaV11gysAg7g0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-22" value="Kiểm tra ánh sáng &lt;br&gt;đạt điều kiện?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-24" target="B6U_4YluaV11gysAg7g0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-24" value="Gửi tín hiệu điều chỉnh đèn" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-26" target="B6U_4YluaV11gysAg7g0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-26" value="Chờ 5 giây" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-30" target="B6U_4YluaV11gysAg7g0-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-30" value="Chờ 5 phút" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-38" target="B6U_4YluaV11gysAg7g0-40" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-38" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-40" target="B6U_4YluaV11gysAg7g0-50" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-40" value="Cảm biến, độ ẩm, nhiệt độ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-58" value="Vượt ngưỡng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-50" target="B6U_4YluaV11gysAg7g0-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-63" value="Bình thường" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-50" target="B6U_4YluaV11gysAg7g0-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-50" value="Kiểm tra độ ẩm, nhiệt độ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="840" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-57" target="B6U_4YluaV11gysAg7g0-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="1010" />
+              <mxPoint x="30" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-57" value="Gửi tín hiệu tắt đến van điện từ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-59" target="B6U_4YluaV11gysAg7g0-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-59" value="Chờ 10 phút" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-62" target="B6U_4YluaV11gysAg7g0-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-62" value="Gửi tín hiệu bật đến van điện từ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-67" target="B6U_4YluaV11gysAg7g0-69" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-67" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="460" y="1220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-69" target="B6U_4YluaV11gysAg7g0-72" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-69" value="Cảm biến, độ ẩm, nhiệt độ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-80" value="Vượt ngưỡng 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-72" target="B6U_4YluaV11gysAg7g0-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-94" value="Bình thường" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-72" target="B6U_4YluaV11gysAg7g0-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-72" value="Kiểm tra độ ẩm, nhiệt độ&lt;br&gt;cấp 1?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-89" value="Vượt ngưỡng 2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-79" target="B6U_4YluaV11gysAg7g0-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-102" value="Vượt ngưỡng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-79" target="B6U_4YluaV11gysAg7g0-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-79" value="Kiểm tra độ ẩm, nhiệt độ&lt;br&gt;cấp 2?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1500" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-81" target="B6U_4YluaV11gysAg7g0-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-81" value="Gửi tín hiệu bật điều hòa" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-88" target="B6U_4YluaV11gysAg7g0-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-88" value="Gửi tín hiệu bật hệ thống phun sương" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-93" target="B6U_4YluaV11gysAg7g0-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-93" value="Gửi tín hiệu tắt điều hòa, hệ thống máy phun sương" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-97" target="B6U_4YluaV11gysAg7g0-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-97" value="Chờ 10 phút" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-101" target="B6U_4YluaV11gysAg7g0-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-101" value="&lt;span&gt;Gửi tín hiệu tắt máy phun sương&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-105" target="B6U_4YluaV11gysAg7g0-107" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-105" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="105" y="1810" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-107" target="B6U_4YluaV11gysAg7g0-110" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-107" value="Cảm biến đo mức trên và dưới" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-125" value="Thấp hơn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-110" target="B6U_4YluaV11gysAg7g0-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-135" value="Cao hơn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-110" target="B6U_4YluaV11gysAg7g0-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-110" value="Kiểm tra mực nước &lt;br&gt;cho phép tối thiểu" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1960" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-124" target="B6U_4YluaV11gysAg7g0-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-124" value="Gửi tín hiệu kích hoạt máy bơm nước" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="2078" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-126" target="B6U_4YluaV11gysAg7g0-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-126" value="Chờ 10 giây" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="2188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-130" value="Thấp hơn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-128" target="B6U_4YluaV11gysAg7g0-126">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="2288" />
+              <mxPoint x="145" y="2288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-132" value="Cao hơn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-128" target="B6U_4YluaV11gysAg7g0-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-128" value="Kiểm tra mực nước&lt;br&gt;cho phép tối đa" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2178" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-131" target="B6U_4YluaV11gysAg7g0-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-131" value="Gửi tín hiệu tắt máy bơm" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2078" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-134" target="B6U_4YluaV11gysAg7g0-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-134" value="Chở 10 phút" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-157" target="B6U_4YluaV11gysAg7g0-187">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="2452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-157" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="350" y="2437" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-159" target="B6U_4YluaV11gysAg7g0-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-159" value="Lắng nghe sự kiện điều khiển từ xa" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-160" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-162" target="B6U_4YluaV11gysAg7g0-165" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-161" value="Có" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-162" target="B6U_4YluaV11gysAg7g0-171" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-162" value="remote: bật điều hòa ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2892" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-164" value="Có" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-165" target="B6U_4YluaV11gysAg7g0-175" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-178" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-165" target="B6U_4YluaV11gysAg7g0-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-165" value="remote: bật hệ thống &lt;br&gt;phun sương ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2892" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-171" target="B6U_4YluaV11gysAg7g0-173">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="3030" />
+              <mxPoint x="10" y="2517" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-171" value="Gửi tín hiệu bật điều hòa&lt;br&gt;tDH = thời gian bật" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="3000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="B6U_4YluaV11gysAg7g0-173" target="B6U_4YluaV11gysAg7g0-159" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-173" value="Chờ 5 giây" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2502" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-175" target="B6U_4YluaV11gysAg7g0-173">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="2932" />
+              <mxPoint x="40" y="2532" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-175" value="&lt;span&gt;Gửi tín hiệu bật máy phun sương&lt;br&gt;tPS = thời gian bật&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2902" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-180" value="Có" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-177" target="B6U_4YluaV11gysAg7g0-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-183" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-177" target="B6U_4YluaV11gysAg7g0-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-177" value="remote: tắt hệ thống &lt;br&gt;phun sương ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2782" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-179" target="B6U_4YluaV11gysAg7g0-173">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="2822" />
+              <mxPoint x="70" y="2547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-179" value="&lt;span&gt;Gửi tín hiệu tắt máy phun sương&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2792" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-185" value="Có" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-182" target="B6U_4YluaV11gysAg7g0-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-182" value="remote: tắt điều hòa&amp;nbsp;?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2672" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-184" target="B6U_4YluaV11gysAg7g0-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-184" value="Gửi tín hiệu tắt điều hòa" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2682" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-187" target="B6U_4YluaV11gysAg7g0-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-187" value="Thời gian bật điều hòa (tDH): 0&lt;br&gt;Thời gian bật phun sương (tPS): 0" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2422" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-197" target="B6U_4YluaV11gysAg7g0-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-197" value="tDH = tDH - 5&lt;br&gt;tPS = tPS - 5" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2582" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-202" value="Đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-199" target="B6U_4YluaV11gysAg7g0-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-199" target="B6U_4YluaV11gysAg7g0-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-199" value="tDH &amp;lt; 0" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2672" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-201" value="&lt;span&gt;Gửi tín hiệu tắt điều hòa&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="707" y="2682" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-206" value="Đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-203" target="B6U_4YluaV11gysAg7g0-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6U_4YluaV11gysAg7g0-203" target="B6U_4YluaV11gysAg7g0-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-203" value="tPS &amp;lt; 0" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2782" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-205" value="&lt;span&gt;Gửi tín hiệu bật máy phun sương&lt;/span&gt;" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="707" y="2792" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-213" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-214" target="B6U_4YluaV11gysAg7g0-216" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-214" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="399.97" y="3570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-216" target="B6U_4YluaV11gysAg7g0-219" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-216" value="Cảm biến, độ ẩm, nhiệt độ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="379.97" y="3630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-217" value="Vượt ngưỡng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-219" target="B6U_4YluaV11gysAg7g0-221" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-218" value="Bình thường" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="B6U_4YluaV11gysAg7g0-219" target="B6U_4YluaV11gysAg7g0-225" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-219" value="Kiểm tra độ ẩm, nhiệt độ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="359.97" y="3760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="B6U_4YluaV11gysAg7g0-221" target="B6U_4YluaV11gysAg7g0-223" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="99.97" y="3930" />
+              <mxPoint x="99.97" y="3660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-221" value="Gửi tín hiệu tắt đến van điện từ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="379.97" y="3900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="B6U_4YluaV11gysAg7g0-223" target="B6U_4YluaV11gysAg7g0-216" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239.97" y="3660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-223" value="Chờ 10 phút" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="139.97" y="3630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="B6U_4YluaV11gysAg7g0-225" target="B6U_4YluaV11gysAg7g0-223" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6U_4YluaV11gysAg7g0-225" value="Gửi tín hiệu bật đến van điện từ" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="139.97" y="3770" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
