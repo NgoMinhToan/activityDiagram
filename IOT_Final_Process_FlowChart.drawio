@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T01:58:39.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4491.6 Safari/537.36" etag="bjDZhzuJyKAs0NmtVvC2" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T02:07:15.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4491.6 Safari/537.36" etag="D_wSfsduT1dutUP68kQ9" version="14.6.9" type="github">
   <diagram id="anuXyuavmqjR2wPOfA69" name="Page-1">
-    <mxGraphModel dx="868" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -506,7 +506,7 @@
         <mxCell id="odV56k7f0674jb8AGiHk-71" value="Đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="odV56k7f0674jb8AGiHk-72" target="odV56k7f0674jb8AGiHk-74" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="odV56k7f0674jb8AGiHk-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-72" target="odV56k7f0674jb8AGiHk-96">
+        <mxCell id="odV56k7f0674jb8AGiHk-97" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-72" target="odV56k7f0674jb8AGiHk-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="odV56k7f0674jb8AGiHk-72" value="remote: mở màn che ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
@@ -548,11 +548,12 @@
         <mxCell id="odV56k7f0674jb8AGiHk-93" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-91" target="odV56k7f0674jb8AGiHk-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="odV56k7f0674jb8AGiHk-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-91" target="odV56k7f0674jb8AGiHk-69">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="odV56k7f0674jb8AGiHk-135" value="Đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-91" target="odV56k7f0674jb8AGiHk-69">
+          <mxGeometry x="-0.8491" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="750" y="4835" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="odV56k7f0674jb8AGiHk-91" value="Kết thúc chỉnh sáng ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
@@ -560,6 +561,16 @@
         </mxCell>
         <mxCell id="odV56k7f0674jb8AGiHk-99" value="Đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-96" target="odV56k7f0674jb8AGiHk-98">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="odV56k7f0674jb8AGiHk-136" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-96" target="odV56k7f0674jb8AGiHk-100">
+          <mxGeometry x="-0.7572" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="5470" />
+              <mxPoint x="10" y="5470" />
+              <mxPoint x="10" y="5050" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="odV56k7f0674jb8AGiHk-96" value="remote: đóng màn che ?" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="275" y="5370" width="180" height="80" as="geometry" />
@@ -578,7 +589,7 @@
         <mxCell id="odV56k7f0674jb8AGiHk-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-100" target="odV56k7f0674jb8AGiHk-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="30" y="5040" />
+              <mxPoint x="30" y="5030" />
               <mxPoint x="30" y="4850" />
             </Array>
           </mxGeometry>
@@ -642,6 +653,15 @@
         </mxCell>
         <mxCell id="odV56k7f0674jb8AGiHk-123" value="Gửi tín đóng máy che" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="5020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="odV56k7f0674jb8AGiHk-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="odV56k7f0674jb8AGiHk-137" target="odV56k7f0674jb8AGiHk-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="odV56k7f0674jb8AGiHk-137" value="Bắt đầu" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="361.47" y="5870" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="odV56k7f0674jb8AGiHk-138" value="" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="341.47" y="5965" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
